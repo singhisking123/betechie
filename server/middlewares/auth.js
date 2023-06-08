@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 require("dotenv").config();
 const User = require("../models/User");
 
-//auth
+//authorization : 
 exports.auth = async (req, res, next) => {
     try{
         //extract token
